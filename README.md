@@ -1,5 +1,5 @@
 
-# ECE 276A: Particle Filter Simulateous Localization and Mappung (SLAM)
+# ECE 276A: Particle Filter Simulateous Localization and Mapping (SLAM)
 
 ## Introduction
 This is project 2 of the course [ECE 276A: Sensing & Estimation in Robotics](https://natanaso.github.io/ece276a/) at UCSD, being taught by professor [Nikolay Atanisov](https://natanaso.github.io/).
@@ -13,7 +13,7 @@ This is then combined with LiDAR data to get a rough scan of the room.
 ![Dead Reckoning Scan for Dataset 20](https://github.com/UnayShah/Particle-Filter-SLAM/blob/master/plots/dead_reckoning_LiDAR_scan_dt_20.jpg)
 
 An attempt to improve the results, is done using particle filter SLAM, introducing Gaussian Noise and simulating 100 particles at each step. An effective number of 10 particles over the iterations. An occupancy grid is finially built showing the room traversed by the robot.
-![Particle Filter SLAM Results for Dataset 20](https://github.com/UnayShah/Particle-Filter-SLAM/blob/master/plots/Particle Filter SLAM Occupancy Map20.jpg)
+![Particle Filter SLAM Results for Dataset 20](https://github.com/UnayShah/Particle-Filter-SLAM/blob/master/plots/Particle%20Filter%20SLAM%20Occupancy%20Map20.jpg)
 
 Finally, using the trajectory obtained, the kinect RGBD data is used to project images onto the map for texture mapping.
 ![Texture Mapping for Dataset 20](https://github.com/UnayShah/Particle-Filter-SLAM/blob/master/plots/Texture_Map20.png)
