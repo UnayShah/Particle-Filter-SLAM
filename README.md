@@ -36,8 +36,8 @@ Data for the robot's
         │   ├── Kinect20.npz
         │   └── Kinect21.npz
         └── dataRGBD
-        │   ├── Kinect20.npz
-        │   └── Kinect21.npz
+            ├── Kinect20.npz
+            └── Kinect21.npz
         
 3. Install the following packages (assuming numpy and matplotlib are already installed):
 
