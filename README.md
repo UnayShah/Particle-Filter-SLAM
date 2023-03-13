@@ -4,19 +4,19 @@
 ## Introduction
 This is project 2 of the course [ECE 276A: Sensing & Estimation in Robotics](https://natanaso.github.io/ece276a/) at UCSD, being taught by professor [Nikolay Atanisov](https://natanaso.github.io/).
 
-The project is based on data collected by a differential drive robot with specifications provided in the [Documentation File]('.\docs\RobotConfiguration.pdf'). The robot collects Encoder Wheels, IMU, LiDAR and Kinect data.
+The project is based on data collected by a differential drive robot with specifications provided in the [Documentation File](https://github.com/UnayShah/Particle-Filter-SLAM/blob/master/docs/RobotConfiguration.pdf). The robot collects Encoder Wheels, IMU, LiDAR and Kinect data.
 
 The data from wheels and IMU are to get a dead reckoning trajectory for the robot.
-![Dead Reckoning Trajectory for Dataset 20](.\plots\dead_reckoning_trajectory_dt_20.jpg)
+![Dead Reckoning Trajectory for Dataset 20](https://github.com/UnayShah/Particle-Filter-SLAM/blob/master/plots/dead_reckoning_trajectory_dt_20.jpg)
 
 This is then combined with LiDAR data to get a rough scan of the room.
-![Dead Reckoning Scan for Dataset 20](.\plots\dead_reckoning_LiDAR_scan_dt_20.jpg)
+![Dead Reckoning Scan for Dataset 20](https://github.com/UnayShah/Particle-Filter-SLAM/blob/master/plots/dead_reckoning_LiDAR_scan_dt_20.jpg)
 
 An attempt to improve the results, is done using particle filter SLAM, introducing Gaussian Noise and simulating 100 particles at each step. An effective number of 10 particles over the iterations. An occupancy grid is finially built showing the room traversed by the robot.
-![Particle Filter SLAM Results for Dataset 20](plots\Particle_Filter_SLAM_Occupancy_Map20.jpg)
+![Particle Filter SLAM Results for Dataset 20](https://github.com/UnayShah/Particle-Filter-SLAM/blob/master/plots/Particle Filter SLAM Occupancy Map20.jpg)
 
 Finally, using the trajectory obtained, the kinect RGBD data is used to project images onto the map for texture mapping.
-![Texture Mapping for Dataset 20](.\plots\Texture_Map20.png)
+![Texture Mapping for Dataset 20](https://github.com/UnayShah/Particle-Filter-SLAM/blob/master/plots/Texture_Map20.png)
 
 Data for the robot's 
 
